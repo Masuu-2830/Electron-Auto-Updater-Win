@@ -1,0 +1,25 @@
+{
+  "name": "electron-auto-updater",
+  "version": "1.0.0",
+  "description": "Electron auto updater win",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "author": "Masood",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.2.1",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Masuu-2830/Electron-Auto-Updater-Win.git"
+  }
+}
